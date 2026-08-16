@@ -1,0 +1,28 @@
+{
+  "mcp": {
+    "host": "127.0.0.1",
+    "port": 3333,
+    "allowedRoots": ["."],
+    "accessMode": "review",
+    "toolProfile": "legacy",
+    "statelessFallback": false,
+    "codexBridge": false,
+    "codexCommand": "",
+    "codexMaxSessions": 4,
+    "codexRequestTimeoutMs": 120000,
+    "maxReadBytes": 200000,
+    "maxOutputBytes": 200000
+  },
+  "web": {
+    "enabled": false,
+    "searchProvider": "none",
+    "searxngUrl": "",
+    "maxBytes": 200000,
+    "timeoutMs": 15000
+  },
+  "sqlite": {
+    "enabled": false,
+    "allowedDbs": [],
+    "maxRows": 100
+  }
+}
